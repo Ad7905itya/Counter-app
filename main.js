@@ -9,7 +9,7 @@ function btnDecrease(){
 }
 
 function btnIncrease(){
-    let addValue = inputChoose.innerHTML = +inputChoose.value;
+    let addValue = inputChoose.innerHTML = parseInt(inputChoose.value);
     i =i + addValue;
     inputValue.value = i;
 }
