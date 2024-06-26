@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Count Numbers</h2>
+        <div class="box">
+            <input type="text" name="Numbers" value="0" id="num" readonly>
+            <div class="btn-box">
+                <button class="btn left" onclick="btnDecrease()">-</button>
+                <button class="btn middle" onclick="btnReset()">Reset</button>
+                <button class="btn right" onclick="btnIncrease()">+</button>
+            </div>
+            <div class="choose-Num">
+                <p><span>Increment/Decrement by :</span><input type="number" name="Num" id="choose" value=""></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
